@@ -74,7 +74,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
                         
                         <br>
                         
-                        <form th:action="@{/login}" method="post">
+                        <form th:action="@{/usuario}" method="post">
 
                             <div th:if=${param.error}>
                                 <div>
@@ -98,12 +98,9 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
                                 <input type="password" name="password" id="password" placeholder="Password" required autofocus="autofocus"/>
                             </div>
                             <br>
-                            <a th:href="@{/usuario}">
-                                <div class="form-group form-button">
-                                    <input type="submit" name="signin" id="signin" class="form-submit" value="Iniciar sesion"/>    
-                                </div>
-                            </a>
-                        </form>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Iniciar sesion"/>    
+                            </div>                        </form>
                         <div class="social-login">
                             <span class="social-label">Or login with</span>
                             <ul class="socials">
