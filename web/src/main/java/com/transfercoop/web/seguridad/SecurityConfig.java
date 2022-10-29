@@ -44,6 +44,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests().antMatchers(
             "/",
+            "/terminos/**",
+            "/privacidad/**",
             "/registro/**",  
             "/.sass-cache/**",  
             "/css/**",  

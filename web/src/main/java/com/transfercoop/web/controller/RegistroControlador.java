@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.transfercoop.web.modelo.Usuario;
 import com.transfercoop.web.servicio.UsuarioServicio;
@@ -34,7 +35,7 @@ public class RegistroControlador {
         return "privacidad";
     }
 
-    @GetMapping("/usuario")
+    @RequestMapping("/usuario")
     public String user(){
         // usuario = servicio.buscar(usuario);
         // model.addAttribute("usuarios", usuario);
