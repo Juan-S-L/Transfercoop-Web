@@ -20,7 +20,7 @@ public class RegistroControlador {
         return "login";
     }
 
-    @GetMapping("/")
+    @GetMapping("/Home")
     public String inicio(){
         return "home";
     }
@@ -35,7 +35,7 @@ public class RegistroControlador {
         return "privacidad";
     }
 
-    @RequestMapping("/usuario")
+    @RequestMapping("/")
     public String user(){
         // usuario = servicio.buscar(usuario);
         // model.addAttribute("usuarios", usuario);
