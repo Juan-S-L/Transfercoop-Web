@@ -18,7 +18,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" th:href="@{/usuario}"><img th:src="@{/images/Logo_user.png}" alt="alternative"></a>
+            <a class="navbar-brand ps-3" th:href="@{/}"><img th:src="@{/images/Logo_user.png}" alt="alternative"></a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -47,7 +47,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Inicio</div>
-                            <a class="nav-link" th:href="@{/usuario}">
+                            <a class="nav-link" th:href="@{/}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Cuenta
                             </a>
@@ -673,11 +673,11 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                            <div class="text-muted">Copyright &copy; Transfercoop 2022</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a th:href="@{/privacidad}">Politica y privacidad</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a th:href="@{/terminos}">Terminos &amp; Condiciones</a>
                             </div>
                         </div>
                     </div>
