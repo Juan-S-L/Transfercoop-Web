@@ -45,10 +45,4 @@ public class UsuarioServicioImpl implements UsuarioServicio {
     private Collection<? extends GrantedAuthority> mapearAutoridadesRoles(Collection<Rol> roles){
         return roles.stream().map(role -> new SimpleGrantedAuthority(role.getNombre())).collect(Collectors.toList());
     }
-
-    // @Override
-    // public Usuario buscar(Usuario usuario) {
-    //     return usuarioDao.findById(usuario.getId()).orElse(null);
-    // }
-    
 }

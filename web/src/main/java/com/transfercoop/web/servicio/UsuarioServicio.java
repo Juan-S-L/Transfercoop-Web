@@ -7,5 +7,4 @@ import com.transfercoop.web.modelo.Usuario;
 
 public interface UsuarioServicio extends UserDetailsService{
     public Usuario guardar(UsuarioRegistroDTO dto);
-    // public Usuario buscar(Usuario usuario);
 }
