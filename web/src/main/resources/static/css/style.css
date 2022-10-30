@@ -134,6 +134,16 @@ input, select, textarea {
   -o-appearance: unset !important;
   -ms-appearance: unset !important; }
 
+.arrowLeft::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    top: 48px;
+    left: 63px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid rgb(50, 38, 38); }
+
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   appearance: none !important;
   -moz-appearance: none !important;
