@@ -8,25 +8,25 @@
 
 [Resumen.](#Resumen)
 
-1. [Planteamiento del problema.](#Planteamiento-del-problema)
+1. [Planteamiento del problema.](#planteamiento-del-problema)
 
-     1.1. [Descripcion del problema.](#Descripcion-del-problema)
+     1.1. [Descripcion del problema.](#%EF%B8%8Fdescripcion-de-problema)
     
      1.2. [Objetivos.](#Objetivos)
      
-     1.2.1. [Objetivo General.](#Objetivo-General)
+     1.2.1. [Objetivo General.](#%EF%B8%8Fobjetivo-general)
      
-     1.2.2. [Objetivos Especificos.](#Objetivos-Especificos)
+     1.2.2. [Objetivos Especificos.](#objetivos-especificos)
       
-1.3. [Justificacion.](#Justificacion)
+1.3. [Justificacion.](#%EF%B8%8Fjustificacion)
 
-2. [Marco de Referencias.](#Marco-de-Referencias)
+2. [Marco de Referencias.](#-marco-de-referencia)
 
       2.1. [Marco Contextual.](#-marco-contextual)
    
-      2.2. [Marco Teorico.](#Marco-Teorico)
+      2.2. [Marco Teorico.](#-marco-teorico)
    
-      2.3. [Marco Legal.](#Marco-Legal)
+      2.3. [Marco Legal.](#-marco-legal)
  
 3. [Metologia Ingenieril.](#Metologia-Ingenieril)
 
