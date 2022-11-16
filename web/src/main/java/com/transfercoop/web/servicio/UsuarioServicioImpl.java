@@ -27,6 +27,8 @@ public class UsuarioServicioImpl implements UsuarioServicio {
     @Autowired
     private UsuarioDao usuarioDao;
 
+    public Usuario usuario;
+
     @Override
     public Usuario guardar(UsuarioRegistroDTO dto) {
         Usuario usuario = new Usuario(dto.getNombre(), dto.getApellido(), dto.getTelefono(), dto.getEmail(), 0.0, passwordEncoder.encode(dto.getPassword()), Arrays.asList(new Rol("ROLE_USER")));
@@ -35,7 +37,7 @@ public class UsuarioServicioImpl implements UsuarioServicio {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Usuario usuario = usuarioDao.findByEmail(username);
+        usuario = usuarioDao.findByEmail(username);
         if(usuario == null){
             throw new UsernameNotFoundException("Usuario o password invalidos");
         }
