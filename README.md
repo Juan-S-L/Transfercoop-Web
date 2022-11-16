@@ -22,7 +22,7 @@
 
 2. [Marco de Referencias.](#Marco-de-Referencias)
 
-      2.1. [Marco Contextual.](#Marco-Contextual)
+      2.1. [Marco Contextual.](#-marco-contextual)
    
       2.2. [Marco Teorico.](#Marco-Teorico)
    
@@ -122,7 +122,7 @@ Lo que se espera del software es:
 ## **📕 Marco Contextual.** 
 ***
 
-Se hará una Comparamos softwares bancarios del mercando de la actualidad basándonos en las funciones del nuestro software las cuales son:
+Comparamos softwars bancarios del mercando de la actualidad basándonos en las funciones del nuestro software las cuales son:
 
 •	Almacenamiento de datos.
 
