@@ -30,19 +30,19 @@
  
 3. [Metologia Ingenieril.](#Metologia-Ingenieril)
 
-4. [Desarrollo Ingenieril.](#Desarollo-Ingenieril)
+4. [Desarrollo Ingenieril.](#desarollo-ingenieril)
 
       4.1. [Requerimientos.](#Requerimientos)
 
       4.2. [Modelado.](#Modelado)
  
-      4.3. [Descripcion tecnica del sistema.](#Descripcion-tecnica-del-sistema)
+      4.3. [Descripcion tecnica del sistema.](#%EF%B8%8Fdescripcion-tecnica-del-sistema)
  
-      4.4. [Diseño de Interfaz.](#Diseño-de-Interfaz)
+      4.4. [Diseño de Interfaz.](#diseño-de-interfaz)
  
 5. [Analisis Economico.](#Analisis-Economico)
 
-6. [Conclusiones.](#Conclusiones)
+6. [Conclusiones.](#conclusiones)
 
 7. [Bibliografias.](#Bibliografias)
 
